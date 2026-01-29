@@ -1,5 +1,5 @@
 function processEvent(event)
-    local msg = event["message"]
+    local msg = event["message"] -- we are targeting the message field in this example, change as needed
 
     if msg and type(msg) == "string" then
         -- 1. Normalize Whitespace
